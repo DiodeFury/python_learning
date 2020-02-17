@@ -6,7 +6,7 @@ class Point:
         print("move")
 
     def draw(self):
-        print("draw")    
+        print("draw")
 
 
 # point1 =Point()
@@ -15,6 +15,6 @@ class Point:
 # print(point1.x)
 # point1.draw()
 
-point = Point(10,20)
-point.x=11
+point = Point(10, 20)
+point.x = 11
 print(point.x)
