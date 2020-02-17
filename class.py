@@ -16,5 +16,5 @@ class Point:
 # point1.draw()
 
 point = Point(10,20)
-point.x=11
+point.x=12
 print(point.x)
