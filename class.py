@@ -1,5 +1,5 @@
 class Point:
-    def __init__(self):
+    def __init__(self,x,y):
         self.x=x
         self.y=y
     def move(self):
@@ -16,5 +16,5 @@ class Point:
 # point1.draw()
 
 point = Point(10,20)
-point.x=12
+point.x=11
 print(point.x)
