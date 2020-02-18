@@ -25,9 +25,12 @@ class Person:
         self.name = name
 
     def talk(self):
-        print("talk")
+        print(f'hi!my name is {self.name}')
 
 
 john = Person("john.smith")
 print(john.name)
 john.talk()
+bob= Person("bob.paul")
+print(bob.name)
+bob.talk()
